@@ -1,0 +1,22 @@
+@mixin btn($fontWeight: 600, $color: #0061df79, $colorHover: #292929) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: inherit;
+  padding: 0px 15px;
+  border-radius: 5px;
+
+  font-family: quickL;
+  font-weight: $fontWeight;
+  color: $color;
+
+  transition: padding 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #0061df71;
+    color: $colorHover;
+    padding-block: 10px;
+    cursor: pointer;
+  }
+}

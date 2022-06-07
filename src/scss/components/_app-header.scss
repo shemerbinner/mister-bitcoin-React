@@ -1,0 +1,44 @@
+.app-header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0px 40px 0;
+
+  .logo {
+    flex: 1;
+    font-size: 22px;
+    font-family: julian;
+    text-shadow: 0 1px 5px #00000059;
+  }
+
+  .back {
+    flex: 0.8 1;
+
+    button {
+      @include btn();
+    }
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    > * {
+      color: rgb(41, 41, 41);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+
+      &:hover {
+        color: #0061df79;
+      }
+      &.active {
+        color: #0060df;
+      }
+    }
+
+    > *:not(:last-child) {
+      margin-inline-end: 30px;
+    }
+  }
+}

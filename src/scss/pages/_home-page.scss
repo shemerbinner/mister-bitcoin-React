@@ -1,0 +1,33 @@
+.home-page {
+  display: flex;
+  height: 90vh;
+
+  .container {
+    margin-inline-start: 125px;
+    margin-block-start: 45px;
+    flex: 0.5;
+
+    h1 {
+      margin-block-end: 25px;
+    }
+
+    > h5:not(:last-child) {
+      margin-block-end: 10px;
+    }
+  }
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0.5;
+    margin: 0;
+
+    position: relative;
+    top: -20px;
+
+    img {
+      width: 65%;
+    }
+  }
+}

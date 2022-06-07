@@ -1,0 +1,19 @@
+// BASIC
+@import "./basic/base";
+
+// SETUP
+@import "./setup/typography";
+@import "./setup/mixins";
+
+// COMPONENTS
+@import "./components/_app-header.scss";
+// @import './components/_contact-filter.scss';
+// @import './components/_contact-list.scss';
+// @import './components/_contact-preview.scss';
+
+// PAGES
+@import "./pages/_bitcoin-app.scss";
+@import "./pages/_home-page.scss";
+// @import './pages/_contact-page.scss';
+// @import './pages/_contact-details-page.scss';
+// @import './pages/_contact-edit.scss';
